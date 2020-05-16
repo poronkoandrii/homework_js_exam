@@ -5,7 +5,7 @@ $(".slider").slick({
   fade: false,
   arrows: false,
   cssEase: "linear",
-  //   autoplay: 5000,
+  autoplay: true,
 });
 $(".news__slider").slick({
   dots: true,
@@ -14,6 +14,7 @@ $(".news__slider").slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
+  autoplay: 5000,
   cssEase: "linear",
   responsive: [
     {

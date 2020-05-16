@@ -510,6 +510,26 @@ html {
   }
 }
 
+.wrapper .arrow-down {
+  background-image: url(../img/sprite.png);
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .arrow-down {
+    display: none;
+  }
+}
+
 .whatwedo__line {
   width: 100px;
   height: 1px;
