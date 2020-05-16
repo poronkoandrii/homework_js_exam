@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="css/slick-theme.css" /> -->
+    <link rel="icon" href="img/favicon.ico" />
+    <title>MONTICELLO</title>
+  </head>
+  <body>
+    <div class="mainer">
+      <header class="header">
+        <div class="header__logo">
+          <img class="header__logo-img" src="img/logo.png" alt="MONTICELLO" />
+        </div>
+        <div class="header__navigation js-menu">
+          <ul class="header__navigation-ul">
+            <li class="header__navigation-li">
+              <a href="#about" class="header__navigation-link">About Us</a>
+            </li>
+            <li class="header__navigation-li">
+              <a href="#projects" class="header__navigation-link">projects</a>
+            </li>
+            <li class="header__navigation-li">
+              <a href="#news" class="header__navigation-link">news</a>
+            </li>
+            <li class="header__navigation-li">
+              <a href="#contact" class="header__navigation-link">contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__social">
+          <a
+            href="https://www.facebook.com/"
+            target="blank"
+            class="header__social-arc"
+          >
+            <svg class="header__social-icon">
+              <use xlink:href="svg/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/explore"
+            target="blank"
+            class="header__social-arc"
+          >
+            <svg class="header__social-icon">
+              <use xlink:href="svg/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/?hl=ru"
+            target="blank"
+            class="header__social-arc"
+          >
+            <svg class="header__social-icon">
+              <use xlink:href="svg/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="header__hamburger js-menu-toggler">
+          <div class="header__hamburger-line"></div>
+          <div class="header__hamburger-line"></div>
+          <div class="header__hamburger-line"></div>
+        </div>
+      </header>
+    </div>
+    <div class="wrapper">
+      <div class="slider">
+        <div class="slider__item">
+          <img
+            src="img/bg_slide1.jpg"
+            class="slider__item-img"
+            alt="home on blue bg"
+          />
+        </div>
+        <div class="slider__item">
+          <img
+            src="img/bg_slide2.jpg"
+            class="slider__item-img"
+            alt="home on blue bg"
+          />
+        </div>
+        <div class="slider__item">
+          <img
+            src="img/bg_slide3.jpg"
+            class="slider__item-img"
+            alt="home on blue bg"
+          />
+        </div>
+        <div class="slider__item">
+          <img
+            src="img/bg_slide4.jpg"
+            class="slider__item-img"
+            alt="home on blue bg"
+          />
+        </div>
+        <div class="slider__item">
+          <img
+            src="img/bg_slide5.jpg"
+            class="slider__item-img"
+            alt="home on blue bg"
+          />
+        </div>
+      </div>
+      <div class="text">
+        <h1 class="text__title">Simple & mordern</h1>
+        <span class="text__subtitle"
+          >We make the world's beautiful every day</span
+        >
+      </div>
+    </div>
+    <div class="mainer" id="about">
+      <div class="whatwedo">
+        <div class="whatwedo__line"></div>
+        <h2 class="whatwedo__title">
+          what we do
+        </h2>
+        <div class="whatwedo__trade">
+          <div class="whatwedo__trade-image">
+            <img
+              src="img/hzsh.jpg"
+              class="whatwedo__trade-image-img"
+              alt="Что-то непонятное, наверное дом!"
+            />
+          </div>
+          <div class="whatwedo__trade-info">
+            <div class="whatwedo__trade-info-subtitle">One World</div>
+            <div class="whatwedo__trade-info-title">Trade Center</div>
+            <div class="whatwedo__trade-info-description">
+              Increasing prosperity in our lives can be accomplished by having
+              the right frame of mind. The truth is, our thoughts are very
+              powerful.
+            </div>
+            <button class="whatwedo__trade-info-button">more details</button>
+            <div class="whatwedo__trade-info-location">
+              <svg class="whatwedo__trade-info-location-icon">
+                <use xlink:href="svg/sprite.svg#location"></use>
+              </svg>
+              New York City, United States - 1776 feet
+            </div>
+          </div>
+        </div>
+        <div class="whatwedo__trade whatwedo__trade--reverse">
+          <div class="whatwedo__trade-image whatwedo__trade-image--reverse">
+            <img
+              class="whatwedo__trade-image-img"
+              src="img/build.jpg"
+              alt="Кирпичный дом!"
+            />
+          </div>
+          <div class="whatwedo__trade-info whatwedo__trade-info--reverse">
+            <div class="whatwedo__trade-info-subtitle">International</div>
+            <div class="whatwedo__trade-info-title">Commerce Centre</div>
+            <div class="whatwedo__trade-info-description">
+              Successful businesses have many things in common, today we’ll look
+              at the big ‘R’ of recognition and how a digital advertising
+              network may help.
+            </div>
+            <button class="whatwedo__trade-info-button">more details</button>
+            <div class="whatwedo__trade-info-location">
+              <svg class="whatwedo__trade-info-location-icon">
+                <use xlink:href="svg/sprite.svg#location"></use>
+              </svg>
+              Hong Kong - 1588 Feet
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-news" id="news">
+      <div class="mainer">
+        <div class="news">
+          <div class="news__line"></div>
+          <div class="news__title">latest news</div>
+          <div class="news__slider">
+            <div class="news__slider-item">
+              <img
+                class="news__slider-item-img"
+                src="img/news_1.jpg"
+                alt="Slide_1"
+              />
+              <div class="news__slider-item-caption">
+                See The Unmatched Beauty Of The Great.
+              </div>
+              <div class="news__slider-item-description">
+                Free directories: directories are perfect for customers that
+                are... searching for a
+              </div>
+              <div class="news__slider-item-autor">
+                <div class="news__slider-item-autor-img">
+                  <img src="img/author_1.png" alt="author_1" />
+                </div>
+                <div class="news__slider-item-autor-text">
+                  <div class="news__slider-item-autor-text-name">
+                    Isaac Dunn
+                  </div>
+                  <div class="news__slider-item-autor-text-date">
+                    09 Feb 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <img
+                class="news__slider-item-img"
+                src="img/news_2.jpg"
+                alt="Slide_2"
+              />
+              <div class="news__slider-item-caption">
+                Effective Advertising Pointers.
+              </div>
+              <div class="news__slider-item-description">
+                Having a home based business is a wonderful asset to your
+                life...
+              </div>
+              <div class="news__slider-item-autor">
+                <div class="news__slider-item-autor-img">
+                  <img src="img/author_2.png" alt="author_2" />
+                </div>
+                <div class="news__slider-item-autor-text">
+                  <div class="news__slider-item-autor-text-name">
+                    Dominic Freeman
+                  </div>
+                  <div class="news__slider-item-autor-text-date">
+                    24 Apr 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <img
+                class="news__slider-item-img"
+                src="img/news_2.jpg"
+                alt="Slide_2"
+              />
+              <div class="news__slider-item-caption">
+                Effective Advertising Pointers.
+              </div>
+              <div class="news__slider-item-description">
+                Having a home based business is a wonderful asset to your
+                life...
+              </div>
+              <div class="news__slider-item-autor">
+                <div class="news__slider-item-autor-img">
+                  <img src="img/author_2.png" alt="author_2" />
+                </div>
+                <div class="news__slider-item-autor-text">
+                  <div class="news__slider-item-autor-text-name">
+                    Dominic Freeman
+                  </div>
+                  <div class="news__slider-item-autor-text-date">
+                    24 Apr 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <img
+                class="news__slider-item-img"
+                src="img/news_2.jpg"
+                alt="Slide_2"
+              />
+              <div class="news__slider-item-caption">
+                Effective Advertising Pointers.
+              </div>
+              <div class="news__slider-item-description">
+                Having a home based business is a wonderful asset to your
+                life...
+              </div>
+              <div class="news__slider-item-autor">
+                <div class="news__slider-item-autor-img">
+                  <img src="img/author_2.png" alt="author_2" />
+                </div>
+                <div class="news__slider-item-autor-text">
+                  <div class="news__slider-item-autor-text-name">
+                    Dominic Freeman
+                  </div>
+                  <div class="news__slider-item-autor-text-date">
+                    24 Apr 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <img
+                class="news__slider-item-img"
+                src="img/news_4.jpg"
+                alt="Slide_3"
+              />
+              <div class="news__slider-item-caption">
+                Hypnotize Yourself Into The Ghost.
+              </div>
+              <div class="news__slider-item-description">
+                There are many things that are important to catalog design....
+              </div>
+              <div class="news__slider-item-autor">
+                <div class="news__slider-item-autor-img">
+                  <img src="img/author_3.png" alt="author_3" />
+                </div>
+                <div class="news__slider-item-autor-text">
+                  <div class="news__slider-item-autor-text-name">
+                    Alice Ward
+                  </div>
+                  <div class="news__slider-item-autor-text-date">
+                    24 Apr 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainer" id="projects">
+      <div class="gallery">
+        <div class="gallery__line"></div>
+        <div class="gallery__title">Gallery</div>
+        <div class="gallery__row">
+          <div class="gallery__img gallery__img--lg">
+            <img
+              src="img/gallery_1.jpg"
+              class="gallery__block-sm-img"
+              alt="gallery_1"
+            />
+          </div>
+          <div class="gallery__block">
+            <div class="gallery__block-sm">
+              <img
+                src="img/gallery_2.jpg"
+                class="gallery__block-sm-img"
+                alt="gallery_2"
+              />
+            </div>
+            <div class="gallery__block-sm">
+              <img
+                src="img/gallery_3.jpg"
+                class="gallery__block-sm-img"
+                alt="gallery_3"
+              />
+            </div>
+          </div>
+          <div class="gallery__block">
+            <div class="gallery__block-sm">
+              <img
+                src="img/gallery_4.jpg"
+                class="gallery__block-sm-img"
+                alt="gallery_4"
+              />
+            </div>
+            <div class="gallery__block-sm">
+              <img
+                src="img/gallery_5.jpg"
+                class="gallery__block-sm-img"
+                alt="gallery_5"
+              />
+            </div>
+          </div>
+        </div>
+        <button class="gallery__button">See more</button>
+      </div>
+    </div>
+    <div id="map" class="map"></div>
+    <footer class="end" id="contact">
+      <div class="footer">
+        <form action="GET" class="form">
+          <div class="form__line"></div>
+          <div class="form__title">get in touch</div>
+          <div class="form__row">
+            <div class="form__row-col">
+              <div class="form__row-col-info">
+                <svg class="form__row-col-info-icon">
+                  <use xlink:href="svg/sprite.svg#location"></use>
+                </svg>
+                91 Nolan Extensions Suite 670
+              </div>
+              <div class="form__row-col-info">
+                <svg class="form__row-col-info-icon">
+                  <use xlink:href="svg/sprite.svg#phone"></use>
+                </svg>
+                91 Nolan Extensions Suite 670
+              </div>
+              <div class="form__row-col-info">
+                <svg class="form__row-col-info-icon">
+                  <use xlink:href="svg/sprite.svg#mailbox"></use>
+                </svg>
+                gahuy93@gmail.com
+              </div>
+              <div class="form__row-col-info">
+                <svg class="form__row-col-info-icon">
+                  <use xlink:href="svg/sprite.svg#clock"></use>
+                </svg>
+                From 07:05AM to 19:30PM
+              </div>
+            </div>
+            <div class="form__row-col">
+              <input
+                class="form__row-col-input"
+                placeholder="Name"
+                name="name"
+                type="text"
+                minlength="3"
+                required
+              />
+              <input
+                class="form__row-col-input"
+                placeholder="Email"
+                name="email"
+                type="email"
+                minlength="3"
+                required
+              />
+              <button class="form__row-col-button" type="submit">submit</button>
+            </div>
+          </div>
+        </form>
+        <div class="header">
+          <div class="header__logo">
+            <img class="header__logo-img" src="img/logo.png" alt="MONTICELLO" />
+          </div>
+          <div class="header__social">
+            <a
+              href="https://www.facebook.com/"
+              target="blank"
+              class="header__social-arc"
+            >
+              <svg class="header__social-icon">
+                <use xlink:href="svg/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a
+              href="https://twitter.com/explore"
+              target="blank"
+              class="header__social-arc"
+            >
+              <svg class="header__social-icon">
+                <use xlink:href="svg/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/?hl=ru"
+              target="blank"
+              class="header__social-arc"
+            >
+              <svg class="header__social-icon">
+                <use xlink:href="svg/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <span class="footer__copy-monti">Copyrights © 2017 Monticello</span>
+          <span class="footer__copy-monti"
+            >Made with
+            <svg class="footer__copy-icon">
+              <use xlink:href="svg/sprite.svg#heart"></use>
+            </svg>
+            by Ga Huy</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKOiAe11xUd9JRmlJThjSMjwcQpgqK2qM&callback=initMap"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
