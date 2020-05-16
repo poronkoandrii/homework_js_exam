@@ -461,6 +461,12 @@ html {
   font-size: 0;
   background-color: transparent;
   padding: 0;
+  cursor: pointer;
+}
+
+.wrapper .slick-dots button:hover {
+  -webkit-box-shadow: 0px 0px 7px white;
+          box-shadow: 0px 0px 7px white;
 }
 
 .wrapper .slick-dots li.slick-active button {
@@ -515,6 +521,7 @@ html {
   width: 40px;
   height: 40px;
   display: block;
+  border-radius: 50%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -522,6 +529,11 @@ html {
           transform: translateX(-50%);
   z-index: 10;
   cursor: pointer;
+}
+
+.wrapper .arrow-down:hover {
+  -webkit-box-shadow: 0px 0px 7px white;
+          box-shadow: 0px 0px 7px white;
 }
 
 @media screen and (max-width: 768px) {
@@ -889,6 +901,12 @@ html {
   border: none;
   outline: none;
   cursor: pointer;
+  border-radius: 50%;
+}
+
+.latest-news .news .news__slider .slick-arrow:hover {
+  -webkit-box-shadow: 0px 0px 7px white;
+          box-shadow: 0px 0px 7px white;
 }
 
 .latest-news .news .news__slider .slick-prev {
@@ -943,6 +961,11 @@ html {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+}
+
+.latest-news .news .news__slider .slick-dots button:hover {
+  -webkit-box-shadow: 0px 0px 7px white;
+          box-shadow: 0px 0px 7px white;
 }
 
 .latest-news .news .news__slider .slick-dots li.slick-active button {
